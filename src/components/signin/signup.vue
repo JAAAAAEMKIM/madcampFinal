@@ -60,7 +60,7 @@ export default{
     },
     onSignup(username, password, passwordConfirm, name, email){
       this.Initialize()
-      this.$axios.post(`http://143.248.39.49:4500/users`,
+      this.$axios.post(`https://143.248.39.49:4500/users`,
         { 'username' : username,
           'password' : password,
           'passwordConfirmation' : passwordConfirm,

@@ -82,7 +82,7 @@ import { ChatManager, TokenProvider } from '@pusher/chatkit-client'
 
 import Rooms from './Rooms.vue'
 
-const resourceHost = 'http://143.248.39.49:4500'
+const resourceHost = 'https://143.248.39.49:4500'
 
 
 export default{

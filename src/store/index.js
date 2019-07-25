@@ -4,7 +4,7 @@ import axios from 'axios'
 
 Vue.use(Vuex);
 
-const resourceHost = 'http://143.248.39.49:4500'
+const resourceHost = 'https://143.248.39.49:4500'
 
 export default new Vuex.Store({
   state: {

@@ -95,7 +95,7 @@ function inserted(el,binding) {
       linewidth : LINE_WIDTH
     };
     console.log(body)
-    axios.post(`http://143.248.39.49:4500/catchmind/paint`,body)
+    axios.post(`https://143.248.39.49:4500/catchmind/paint`,body)
       .then(() => (line = []));
   }
 

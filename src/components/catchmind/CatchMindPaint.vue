@@ -90,7 +90,7 @@ import Messages from './Messages.vue'
 import InputForm from './InputForm.vue'
 import PaintDraw from './PaintDraw.vue'
 
-const resourceHost = 'http://143.248.39.49:4500'
+const resourceHost = 'https://143.248.39.49:4500'
 
 
 export default{
